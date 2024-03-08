@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T04:40:44.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="73X1Xnx2VY9-aaSioQX7" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T04:40:58.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Nzk_nqz0yLWMN9spMmGN" version="23.1.7" type="github">
   <diagram id="yT1LhfVAKyN9YxIOxs3x" name="Page-1">
     <mxGraphModel dx="4140" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
           <mxGeometry y="104" width="255" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-52" value="Notification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1500" y="-860" width="310" height="156" as="geometry" />
+          <mxGeometry x="-1470" y="-870" width="310" height="156" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-53" value="notification_id (รหัสการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-52">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
