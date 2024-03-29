@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T02:34:57.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OsfsorLMvttS1gWoxQG7" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T09:35:35.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="P_Lg-s92-dp7IA64UWiI" version="24.2.0" type="github">
   <diagram id="yT1LhfVAKyN9YxIOxs3x" name="Page-1">
-    <mxGraphModel dx="3428" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2693" dy="2100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="boIrariD0a6XEikcG7GA-1" value="Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="-605" width="255" height="312" as="geometry" />
+          <mxGeometry x="-440" y="-605" width="255" height="338" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-2" value="task_id &lt;font style=&quot;font-size: 10px;&quot;&gt;(&lt;font style=&quot;&quot;&gt;รหัสที่ระบุสำหรับแต่ละงาน&lt;/font&gt;)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-1" vertex="1">
           <mxGeometry y="26" width="255" height="26" as="geometry" />
@@ -31,17 +31,20 @@
         <mxCell id="boIrariD0a6XEikcG7GA-9" value="category_id (&lt;font style=&quot;font-size: 10px;&quot;&gt;รหัสหมวดหมู่ที่เกี่ยวข้อง&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-1" vertex="1">
           <mxGeometry y="208" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-10" value="comments (&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;ความคิดเห็นที่เกี่ยวข้องกับงาน&lt;/font&gt;)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-1" vertex="1">
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-9" value="user_id (&lt;font style=&quot;font-size: 10px;&quot;&gt;รหัสหมวดหมู่ที่เกี่ยวข้อง&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-1">
           <mxGeometry y="234" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-11" value="created_at (&lt;font style=&quot;font-size: 10px;&quot;&gt;วันที่สร้างงาน&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-1" vertex="1">
+        <mxCell id="boIrariD0a6XEikcG7GA-10" value="comments (&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;&quot;&gt;ความคิดเห็นที่เกี่ยวข้องกับงาน&lt;/font&gt;)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-1" vertex="1">
           <mxGeometry y="260" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-12" value="updated_at (&lt;font style=&quot;font-size: 10px;&quot;&gt;วันที่แก้ไขล่าสุด&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-1" vertex="1">
+        <mxCell id="boIrariD0a6XEikcG7GA-11" value="created_at (&lt;font style=&quot;font-size: 10px;&quot;&gt;วันที่สร้างงาน&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-1" vertex="1">
           <mxGeometry y="286" width="255" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-12" value="updated_at (&lt;font style=&quot;font-size: 10px;&quot;&gt;วันที่แก้ไขล่าสุด&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-1" vertex="1">
+          <mxGeometry y="312" width="255" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-25" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-940" y="-540" width="255" height="182" as="geometry" />
+          <mxGeometry x="-940" y="-540" width="255" height="338" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-26" value="user_id (รหัสผู้ใช้)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-25" vertex="1">
           <mxGeometry y="26" width="255" height="26" as="geometry" />
@@ -61,8 +64,26 @@
         <mxCell id="boIrariD0a6XEikcG7GA-31" value="updated_at (วันที่แก้ไขข้อมูลล่าสุด)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-25" vertex="1">
           <mxGeometry y="156" width="255" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-1" value="notification_id (รหัสการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-25">
+          <mxGeometry y="182" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-2" value="share_id (รหัสการแบ่งปัน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-25">
+          <mxGeometry y="208" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-3" value="authentication_id(รหัสการตรวจสอบ)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-25">
+          <mxGeometry y="234" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-4" value="setting_id(รหัสการตรวจสอบ)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-25">
+          <mxGeometry y="260" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-5" value="report_id รหัสรายงาน" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-25">
+          <mxGeometry y="286" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-8" value="comment_id (รหัสการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-25">
+          <mxGeometry y="312" width="255" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-37" value="Project" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="-880" width="255" height="156" as="geometry" />
+          <mxGeometry x="-440" y="-880" width="255" height="208" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-38" value="project_id (รหัสโปรเจค)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-37" vertex="1">
           <mxGeometry y="26" width="255" height="26" as="geometry" />
@@ -79,8 +100,14 @@
         <mxCell id="boIrariD0a6XEikcG7GA-43" value="updated_at (วันที่แก้ไขโปรเจค)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-37" vertex="1">
           <mxGeometry y="130" width="255" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-11" value="user_id (รหัส user)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-37">
+          <mxGeometry y="156" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-12" value="task_id (รหัสของงาน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-37">
+          <mxGeometry y="182" width="255" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-45" value="Category" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="-509" width="255" height="130" as="geometry" />
+          <mxGeometry x="-40" y="-509" width="255" height="156" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-46" value="category_id (รหัสหมวดหมู่)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-45" vertex="1">
           <mxGeometry y="26" width="255" height="26" as="geometry" />
@@ -94,56 +121,50 @@
         <mxCell id="boIrariD0a6XEikcG7GA-51" value="updated_at (วันที่แก้ไขหมวดหมู่)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-45" vertex="1">
           <mxGeometry y="104" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-52" value="Notification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1470" y="-870" width="310" height="156" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-53" value="notification_id (รหัสการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
-          <mxGeometry y="26" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-54" value="task_id (รหัสงานที่เกี่ยวข้อง)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
-          <mxGeometry y="52" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-56" value="user_id (รหัสผู้ใช้ที่จะได้รับการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
-          <mxGeometry y="78" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-57" value="method (&lt;font style=&quot;font-size: 10px;&quot;&gt;วิธีการแจ้งเตือน [อีเมล, แจ้งเตือนในแอป, แจ้งเตือน SMS]&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
-          <mxGeometry y="104" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-55" value="created_at (วันที่สร้างการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
-          <mxGeometry y="130" width="310" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-58" value="Comment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="-190" width="255" height="156" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-59" value="comment_id (รหัสการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
-          <mxGeometry y="26" width="255" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-60" value="task_id (รหัสงานที่เกี่ยวข้อง)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
-          <mxGeometry y="52" width="255" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-61" value="user_id (รหัสผู้ใช้ที่จะได้รับการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
-          <mxGeometry y="78" width="255" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-62" value="content (เนื้อหาความคิดเห็น)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
-          <mxGeometry y="104" width="255" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-63" value="created_at (วันที่สร้างความคิดเห็น)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
+        <mxCell id="1l5RN3VlPx49mGvQXa8X-13" value="task_id(วันที่แก้ไขหมวดหมู่)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-45">
           <mxGeometry y="130" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-64" value="Report" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-940" y="-20" width="255" height="130" as="geometry" />
+        <mxCell id="boIrariD0a6XEikcG7GA-52" value="Notification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1470" y="-870" width="310" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-65" value="report_id รหัสรายงาน" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-64" vertex="1">
+        <mxCell id="boIrariD0a6XEikcG7GA-54" value="task_id (รหัสงานที่เกี่ยวข้อง)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-56" value="user_id (รหัสผู้ใช้ที่จะได้รับการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
+          <mxGeometry y="52" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-57" value="method (&lt;font style=&quot;font-size: 10px;&quot;&gt;วิธีการแจ้งเตือน [อีเมล, แจ้งเตือนในแอป, แจ้งเตือน SMS]&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
+          <mxGeometry y="78" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-55" value="created_at (วันที่สร้างการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-52" vertex="1">
+          <mxGeometry y="104" width="310" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-58" value="Comment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="-190" width="255" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-60" value="task_id (รหัสงานที่เกี่ยวข้อง)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
           <mxGeometry y="26" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-66" value="user_id รหัสผู้ใช้ที่สร้างรายงาน" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-64" vertex="1">
+        <mxCell id="boIrariD0a6XEikcG7GA-61" value="user_id (รหัสผู้ใช้ที่จะได้รับการแจ้งเตือน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
           <mxGeometry y="52" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-67" value="content เนื้อหารายงาน" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-64" vertex="1">
+        <mxCell id="boIrariD0a6XEikcG7GA-62" value="content (เนื้อหาความคิดเห็น)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
           <mxGeometry y="78" width="255" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-69" value="created_at (วันที่สร้างรายงาน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-64" vertex="1">
+        <mxCell id="boIrariD0a6XEikcG7GA-63" value="created_at (วันที่สร้างความคิดเห็น)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-58" vertex="1">
           <mxGeometry y="104" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-64" value="Report" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-940" y="-20" width="255" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-66" value="user_id รหัสผู้ใช้ที่สร้างรายงาน" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-64" vertex="1">
+          <mxGeometry y="26" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-67" value="content เนื้อหารายงาน" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-64" vertex="1">
+          <mxGeometry y="52" width="255" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boIrariD0a6XEikcG7GA-69" value="created_at (วันที่สร้างรายงาน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-64" vertex="1">
+          <mxGeometry y="78" width="255" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-70" value="Authentication" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1470" y="-250" width="255" height="130" as="geometry" />
@@ -173,25 +194,22 @@
           <mxGeometry y="78" width="255" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-80" value="Sharing" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1500" y="-535" width="310" height="182" as="geometry" />
-        </mxCell>
-        <mxCell id="boIrariD0a6XEikcG7GA-81" value="share_id (รหัสการแบ่งปัน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-80" vertex="1">
-          <mxGeometry y="26" width="310" height="26" as="geometry" />
+          <mxGeometry x="-1500" y="-535" width="310" height="156" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-82" value="user_id (รหัสผู้ใช้ที่แบ่งปัน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-80" vertex="1">
-          <mxGeometry y="52" width="310" height="26" as="geometry" />
+          <mxGeometry y="26" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-83" value="shared_with_user_id (รหัสผู้ใช้ที่ได้รับการแบ่งปัน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-80" vertex="1">
-          <mxGeometry y="78" width="310" height="26" as="geometry" />
+          <mxGeometry y="52" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-84" value="task_id (รหัสงานที่แบ่งปัน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-80" vertex="1">
-          <mxGeometry y="104" width="310" height="26" as="geometry" />
+          <mxGeometry y="78" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-85" value="project_id (รหัสโปรเจคทีแบ่งปัน)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-80" vertex="1">
-          <mxGeometry y="130" width="310" height="26" as="geometry" />
+          <mxGeometry y="104" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-86" value="permission_level (ระดับสิทธิ์การเข้าถึง [อ่าน, เขียน, ลบ] )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="boIrariD0a6XEikcG7GA-80" vertex="1">
-          <mxGeometry y="156" width="310" height="26" as="geometry" />
+          <mxGeometry y="130" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-87" value="" style="endArrow=none;endFill=1;endSize=12;html=1;rounded=0;" parent="1" source="boIrariD0a6XEikcG7GA-25" target="boIrariD0a6XEikcG7GA-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
