@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T14:52:05.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="o_jDjM3VzsYhOaBtKp3A" version="24.2.2" type="github">
-  <diagram id="yT1LhfVAKyN9YxIOxs3x" name="Page-1">
-    <mxGraphModel dx="4963" dy="2331" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-04-04T14:52:30.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GwdIqv0uuaWPJb7MQ16D" version="24.2.2" type="github">
+  <diagram id="yT1LhfVAKyN9YxIOxs3x" name="class todo list">
+    <mxGraphModel dx="4074" dy="1992" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,7 +158,7 @@
           <mxGeometry y="104" width="255" height="26" as="geometry" />
         </mxCell>
         <mxCell id="boIrariD0a6XEikcG7GA-75" value="Settings" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1360" y="-26" width="255" height="104" as="geometry" />
+          <mxGeometry x="-1384" y="-111" width="255" height="104" as="geometry" />
         </mxCell>
         <mxCell id="17hKkK6rRio0RtjObmUh-53" value="setting : int (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="boIrariD0a6XEikcG7GA-75">
           <mxGeometry y="26" width="255" height="26" as="geometry" />
